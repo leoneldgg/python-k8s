@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-k8s
+spec:
+  selector:
+    matchLabels:
+      app: python-k8s
+  template:
+    metadata:
+      labels:
+        app: python-k8s
+    spec:
+      containers:
+      - name: python-k8s
+        image: lgareis/python-k8s:latest
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "1000m"
+        ports:
+        - containerPort: 8000

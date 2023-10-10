@@ -1,0 +1,10 @@
+terraform/stacks/development/.terraform
+terraform/stacks/development/terraform.tfstate
+terraform/stacks/development/terraform.tfstate.backup
+terraform/stacks/development/*-config
+terraform/stacks/development/.terraform.lock.hcl
+env/
+venv/
+.env/
+.venv/
+__pycache__/
