@@ -50,7 +50,7 @@ To create an application in ArgoCD, you can:
 
 ```bash
 argocd app create python-k8s \
-    --repo https://github.com/gareisdev/python-k8s
+    --repo https://github.com/leoneldgg/python-k8s
     --path kubernetes \
     --dest-server https://kubernetes.default.svc \
     --dest-namespace default \
@@ -79,7 +79,7 @@ Then, follow the steps:
 1. Click on **New App**
 2. Fill the **App Name** with **python-k8s**
 3. Fill the **Project** with **default**
-4. Fill the **Repository URL** with **https://github.com/gareisdev/python-k8s**
+4. Fill the **Repository URL** with **https://github.com/leoneldgg/python-k8s**
 5. Fill the **Path** with **kubernetes**
 6. Fill the **Cluster URL** with **https://kubernetes.default.svc**
 7. Fill the **Namespace** with **default**
